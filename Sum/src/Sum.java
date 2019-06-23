@@ -8,7 +8,7 @@ public class Sum
    public static void main(String[] args)
    {  
 		Scanner num = new Scanner(System.in);  // Create a Scanner object
-	    System.out.println("This program can tell you the sum of every 2nd integer between 0 and a number you select. Please give a number:");
+	    System.out.println("Please give me a number! :D");
 	    int n = num.nextInt();
 	    int sum = 0;
 	    for (int i = 1; i <= n; i=i+2) {
